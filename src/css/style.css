@@ -93,6 +93,7 @@ a {
   outline: none;
   margin-top: 15px;
   border-right: 1px solid #7e7e7e;
+  cursor: pointer;
 }
 
 .right-search input {
@@ -138,27 +139,28 @@ a {
 
 .first {
   width: 232px;
-  height: 88px;
+  height: 40px;
   border: 1px solid #3bb77e;
   border-radius: 4px;
   background-color: #3bb77e;
   cursor: pointer;
 }
 
-.first h1 {
+/* .first h1 {
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
   margin-left: 15px;
-}
+} */
 
 .first:hover {
   background-color: #3ba875;
 }
 
 .first p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
+  letter-spacing: 1px;
   color: #ffffff;
   text-align: center;
   margin: 8px;
@@ -168,7 +170,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   color: #253d4e;
-  margin: 30px;
+  margin: 20px;
   transition: all 0.3s;
 }
 
@@ -176,11 +178,11 @@ a {
   color: #3bb77b;
 }
 
-.second{
+/* .second{
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-}
+} */
 
 /* .second {
   margin-bottom: 50px;
@@ -188,16 +190,15 @@ a {
 
 .third {
   display: flex;
-  margin-right: 30px;
 }
 
 .photo img {
-  margin-top: 25px;
+  margin-top: 10px;
   margin-right: 10px;
 }
 
 .right-photo span {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   color: #3bb77b;
 }
@@ -205,6 +206,7 @@ a {
 .right-photo p {
   color: #7e7e7e;
   font-size: 12px;
+  margin-top: 5px;
 }
 /* Header-bottom son */
 
@@ -249,11 +251,11 @@ a {
   font-size: 16px;
   color: #253d4e;
   margin-bottom: 10px;
-  transition: all .4s;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
-.card-text h1:hover{
+.card-text h1:hover {
   color: #3bb77b;
 }
 
@@ -285,7 +287,6 @@ a {
   border-radius: 6px;
   cursor: pointer;
 }
-
 
 .card-text a:hover {
   color: #ffffff;
@@ -320,3 +321,4 @@ a {
 .card-text {
   margin: 15px 20px;
 }
+/* Second section son */
